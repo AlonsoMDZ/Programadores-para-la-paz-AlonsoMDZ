@@ -1,0 +1,85 @@
+-------------------------Ejemplo 1:-----------------------------
+
+Entidad: Causa
+
+Campos principales:
+- id
+- titulo
+- descripcion
+- categoria
+- fecha_creacion
+- estado
+
+Ejemplo ficticio:
+- id: 1
+- titulo: "Recuperación del Parque Central"
+- descripcion: "Proyecto comunitario para mejorar las zonas verdes y los juegos infantiles."
+- categoria: "Espacio público"
+- fecha_creacion: "2026-07-10"
+- estado: "Activa"
+
+Propósito:
+Guardar las causas comunitarias que pueden ser apoyadas por los ciudadanos.
+
+
+Entidad: Apoyo
+
+Campos principales:
+- id
+- causa_id
+- alias_usuario
+- fecha_apoyo
+
+Ejemplo ficticio:
+- id: 1
+- causa_id: 1
+- alias_usuario: "Ciudadano01"
+- fecha_apoyo: "2026-07-11"
+
+Propósito:
+Registrar los apoyos que recibe cada causa para llevar un seguimiento de la participación ciudadana sin exponer información personal.
+
+--------------------------Ejemplo 2:-------------------------------
+
+Entidad: Proyecto Comunitario
+
+Campos:
+- codigo
+- nombre
+- descripcion
+- responsable
+- estado
+
+Propósito:
+Guardar la información de los proyectos que la comunidad propone para mejorar algún aspecto del barrio o municipio.
+
+
+Entidad: Participación
+
+Campos:
+- codigo
+- proyecto
+- participante
+- fecha
+- observacion
+
+Propósito:
+Registrar cuándo una persona participa o apoya un proyecto para llevar un control del proceso y conocer el interés de la comunidad.
+
+Ejemplos ficticios:
+
+Proyecto Comunitario
+
+Código: 101
+Nombre: "Siembra para el Futuro"
+Descripción: Jornada de siembra de árboles en el parque del barrio.
+Responsable: Comité Ambiental
+Estado: En desarrollo
+
+Participación
+
+Código: 001
+Proyecto: 101
+Participante: Vecino_15
+Fecha: 12/07/2026
+Observación: Participó en la jornada de limpieza.
