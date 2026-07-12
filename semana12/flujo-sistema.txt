@@ -1,0 +1,5 @@
+1. Un ciudadano ingresa a la plataforma y crea una nueva causa comunitaria.
+2. El sistema guarda la información de la causa en la base de datos.
+3. Otros usuarios pueden consultar las causas disponibles y brindar su apoyo.
+4. La plataforma registra cada apoyo y actualiza el total de participantes.
+5. Cuando la causa cumple el proceso establecido, el sistema genera un documento con la información para presentarlo de manera formal.

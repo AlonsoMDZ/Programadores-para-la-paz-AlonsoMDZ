@@ -1,0 +1,40 @@
+Entidad: Iniciativa
+
+Campos:
+- codigo
+- nombre
+- descripcion
+- categoria
+- fecha_creacion
+
+Propósito:
+Guardar la información de las iniciativas que propone la comunidad para solucionar una necesidad o mejorar su entorno.
+
+
+Entidad: RegistroApoyo
+
+Campos:
+- codigo
+- iniciativa
+- usuario
+- fecha_apoyo
+
+Propósito:
+Llevar el control de las personas que apoyan cada iniciativa y hacer seguimiento a la participación.
+
+Ejemplos ficticios:
+
+Iniciativa
+
+Código: 201
+Nombre: "Más árboles para el barrio"
+Descripción: Campaña para sembrar árboles en zonas verdes.
+Categoría: Medio ambiente
+Fecha de creación: 15/07/2026
+
+RegistroApoyo
+
+Código: A001
+Iniciativa: 201
+Usuario: Vecino_08
+Fecha de apoyo: 16/07/2026

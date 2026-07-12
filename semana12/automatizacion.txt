@@ -1,0 +1,8 @@
+Evento que activa la automatización:
+Cuando una nueva iniciativa es registrada en la plataforma.
+
+Mensaje enviado:
+"Se ha registrado una nueva iniciativa comunitaria. Ingresa a la plataforma para conocer los detalles."
+
+Información que no debe enviarse:
+Nombres completos, números de documento, direcciones, teléfonos, correos electrónicos, contraseñas o cualquier otro dato personal de los participantes.
